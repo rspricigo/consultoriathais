@@ -1,0 +1,387 @@
+.banner{
+    display: flex;
+    justify-content: center;
+    height: 307px;
+}
+
+
+
+.banner__descricao-fundo {
+    display: flex;
+    width: 70%;
+    position: relative;
+    align-items: bottom;
+    color: var(--verde-escuro);
+}
+
+.banner__descricao-fundo::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("../images/nw_imagem_banner.svg");
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+  .banner__descricao-conteudo{
+    display: block;
+    padding-left: 0.3em;
+    border-left: 6px solid var(--laranja);
+    position: absolute;
+    bottom: 0;
+    color: var(--verde-escuro);
+    
+}
+
+.banner__descricao{
+    display: flex;
+    width: 70%;
+    position: relative;
+    align-items: bottom;
+    color: var(--verde-escuro);
+}
+
+
+.descricao__conteudo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    color: var(--verde-escuro);
+    width: 100%;
+}
+
+.descricao__conteudo h2{
+    font-family: var(--fonte-principal);
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.descricao__conteudo p{
+    position: absolute;
+    font-weight: 400;
+    font-size: 14px;
+    bottom: 2em;
+    left: 0.5em;
+    padding-right: 0.5em;
+}
+  
+
+.banner__titulo {
+    font-family: var(--fonte-principal);
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 70px;
+}
+
+.banner__texto {
+    font-weight: 500;
+    padding: 2em 0 2em 0;
+    font-size: 12px;
+    
+}
+
+
+.explicacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 3em;
+    background: var(--verde-escuro);
+    height: 70vw;
+    color: var(--verde-claro);
+    
+}
+
+.questão{
+    font-family: var(--fonte-principal);
+    padding: 0 1em;
+}
+
+.explicacao__descricao {
+    font-family: var(--fonte-principal);
+    padding: 0 2em 0 1em;
+}
+
+
+.explicacao__secundaria{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 3em;
+    background: var(--verde-claro);
+    height: 70vw;
+    color: var(--verde-escuro);
+    
+}
+
+.questão__secundaria{
+    font-family: var(--fonte-principal);
+    padding: 0 1em;
+}
+
+.explicacao__descricao-secundaria {
+    font-family: var(--fonte-principal);
+    padding: 0 2em 0 1em;
+}
+
+
+.resultados{
+    color: var(--verde-claro);
+    background-color: var(--verde-escuro);
+}
+
+.resultados__titulo{
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 1em 0;
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+}
+
+.resultados__detalhes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 1em;
+}
+.resultados__detalhes-descricao p{
+    padding-bottom: 1em;
+}
+
+
+.resultados-secundario{
+    color: var(--verde-escuro);
+    background-color: var(--verde-claro);
+}
+
+.resultados-secundario__titulo{
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 1em 0;
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+}
+
+.resultados-secundario__detalhes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 1em;
+}
+.resultados-secundario__detalhes-descricao p{
+    padding-bottom: 1em;
+}
+
+.proposta__valor{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    color: var(--verde-escuro);
+    font-family: var(--fonte-principal);
+    height: 100vw;
+}
+
+.proposta__valor-descricao-titulo{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 2em 1em;
+}
+
+.proposta__valor-descricao-texto{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 1em 1em 0 1em;
+}
+
+
+.proposta__valor-descricao-texto p{
+    padding: 2em 0;
+}
+
+
+.conquistas{
+    background-color: var(--verde-escuro);
+    color: var(--verde-claro);
+}
+
+.conquistas__titulo{
+    padding: 2em 1em 0 1em;
+}
+
+
+.conquistas__titulo-linha{
+    color: var(--laranja);
+    text-decoration: line-through;
+    padding: 0 1em;
+}
+
+.conquistas__titulo-destaque{
+    font-size: 20px;
+    padding: 1em 1em 0 2em;
+    width: 100%;
+}
+
+.conquistas__lista{
+    padding: 1em 3.5em;
+    list-style-type: disc;
+}
+
+.conquistas__item{
+    font-size: 14px;
+    width: 100%;
+    font-weight: 300;
+    padding: 1em 0;
+}
+
+.item__destaque{
+    color: var(--laranja);
+}
+
+
+
+.bonus{
+    background-color: var(--verde-claro);
+    color: var(--verde-escuro);
+}
+
+.bonus__titulo{
+    padding: 2em 1em 0 1em;
+}
+
+
+.bonus__titulo-linha{
+    color: var(--laranja);
+    text-decoration: line-through;
+    padding: 0 1em;
+}
+
+.bonus__titulo-destaque{
+    font-size: 20px;
+    padding: 1em 1em 0 2em;
+    width: 100%;
+}
+
+.bonus__lista{
+    padding: 1em 3.5em;
+    list-style-type: disc;
+}
+
+.bonus__item{
+    font-size: 14px;
+    width: 100%;
+    font-weight: 300;
+    padding: 1em 0;
+}
+
+.bonus__item span{
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.promocao{
+    background: var(--verde-escuro);
+    color: var(--branco);
+}
+
+.promocao__conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.promocao__conteudo-descricao p{
+    padding-top: 1.5em;
+    
+}
+
+.promocao__conteudo-descricao p span{
+    padding-top: 1.5em;
+    color: var(--laranja);
+   
+}
+
+.promocao__conteudo-links{
+    background-color: #174321;
+    margin: 1em 1em;
+    padding: 1em 1em;
+    color: white;
+    
+    border-radius: 15px;
+   
+}
+
+.promocao__conteudo-links-link{
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+
+
+.sobre__consultora{
+    display: flex;
+}
+
+
+.sobre__consultora-titulo{
+    width: 100%;
+    padding: 1em 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.sobre__consultora-texto{
+    font-size: 14px;
+    padding: 0.5em 1em;
+    font-weight: 300;
+}
+
+
+
+@media screen and (min-width: 1024px) {
+    .banner--titulo{
+        font-size: 36px;
+    }
+
+    .banner__pesquisa{
+        width: 50%;
+    }
+
+    .banner__pesquisa::placeholder{
+        background-position: 6em;
+    }
+    
+}
+
+@media screen and (min-width: 1728px) {
+    .banner__pesquisa{
+        width: 35%;
+
+    }
+
+    .banner__pesquisa::placeholder{
+        background-position: 12em;
+    }
+
+    .banner{
+        padding: 6em 0;
+    }
+    
+}
