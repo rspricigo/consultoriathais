@@ -229,7 +229,7 @@
 .conquistas__titulo-destaque{
     font-size: 20px;
     padding: 1em 1em 0 2em;
-    width: 100%;
+    width: 80vw;
 }
 
 .conquistas__lista{
@@ -269,7 +269,7 @@
 .bonus__titulo-destaque{
     font-size: 20px;
     padding: 1em 1em 0 2em;
-    width: 100%;
+    width: 80vw;
 }
 
 .bonus__lista{
