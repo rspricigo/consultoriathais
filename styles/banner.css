@@ -543,6 +543,12 @@
         text-align: center;
     }
 
+
+    .promocao__conteudo-links{
+        padding: 2em 1em;
+        margin: 1em 2em;
+    }
+
     .promocao__conteudo-links-link{
         white-space: pre-wrap;
     }
