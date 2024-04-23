@@ -543,12 +543,6 @@
         text-align: center;
     }
 
-
-    .promocao__conteudo-links{
-        padding: 2em 1em;
-        margin: 1em 2em;
-    }
-
     .promocao__conteudo-links-link{
         white-space: pre-wrap;
     }
@@ -583,6 +577,58 @@
 
 @media screen and (min-width: 1728px) {
    
+    .banner{
+        padding: 0em 20em;
+        height: 80vh;
+    }
 
+    
+    .explicacao, .explicacao__secundaria, .linha__decoracao, .resultados, .proposta__valor, .promocao{
+        margin: 0 20em;
+    }
+
+
+    .proposta__valor-descricao-texto{
+        text-align: justify;
+    }
+
+
+    .conquistas{
+        margin: 0 20em;
+        padding: 0 0 0 10em;
+    }
+
+    .conquistas__titulo-destaque{
+        padding-left: 6em;
+    }
+
+
+    .bonus{
+        margin: 0 20em;
+        padding: 0 0 0 8em;
+    }
+
+ 
+
+    .bonus__titulo-destaque{
+        
+        padding-left: 6em;
+    }
+
+   
+
+    
+
+    .sobre__consultora{
+        margin: 0 20em;
+        height: 60vh;
+    }
+
+  
+
+
+    .sobre__consultora-texto p{
+        padding-top: 1em;
+    }
     
 }
