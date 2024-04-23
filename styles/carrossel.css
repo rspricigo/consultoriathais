@@ -67,13 +67,16 @@
 .descricao{
     display: flex;
     flex-direction: column;
+   
     border-left: 1px solid var(--laranja);
     padding-left: 0.2em;
    
 }
 
 .descricao p{
-    padding: 0 0.8em 0 0.8em;
+    
+    padding: 1em 0.8em 0 0.8em;
+    
     
 }
 
@@ -99,11 +102,33 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .carrossel__titulo {
-        font-size: 26px;
+    
+    .carrossel{
+        margin: 0 6em;
     }
     
-    .swiper-pagination{
+    .carrossel__titulo {
+        font-size: 28px;
+    }
+
+    .descricao__titulo{
+       font-size: 36px;
+       padding-left: 0.2em;
+    }
+
+    .card__descricao{
+        height: 30vw;
+    }
+
+    .descricao__texto{
+        font-size: 28px;
+    }
+
+    .card__imagem{
+        width: 64px;
+    }
+    
+  /*  .swiper-pagination{
         margin: 2em 0 3em 0;
     }
     .swiper {
@@ -118,7 +143,7 @@
     .card {
         width: 40%;
         margin: 2em auto;
-    }
+    }*/
 }
 
 @media screen and (min-width: 1728px) {
