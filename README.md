@@ -1,4 +1,4 @@
-# Landinga page da consultora Thais.
+# Landing page da consultora Thais.
 
 Thais é consultora financeira, minha amiga de longa data e me permitiu criar uma landingpage para ela com o proposito de praticar minhas habilidades em HTML e CSS.
 
