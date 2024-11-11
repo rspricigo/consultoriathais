@@ -15,3 +15,6 @@ O css implementa media query foi elaborado seguindo o conceito de mobile-first.
 Claro que ainda há, certamente que sempre haverá o que melhorar. De qualquer forma é um projeto pratico que pode servir de exemplo também para você 
 que está estudando assim como eu.
 
+## Visualize o site no github pages no link abaixo:
+https://rspricigo.github.io/consultoriathais/
+
